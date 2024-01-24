@@ -18,10 +18,12 @@ h1{
     border-radius: 50%;
   }
 
-  button:active{
+  .button:active{
     box-shadow:
     0 0 60px 30px whitesmoke;
   }
   .navbarcustom{
     height:4rem;
   }
+ 
+ 

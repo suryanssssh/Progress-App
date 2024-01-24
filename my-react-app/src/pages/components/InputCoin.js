@@ -2,6 +2,8 @@ import React from "react";
 import "../style.css";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
+import CoinForm from "./CoinForm";
+import "../style.css";
 const InputCoin = (props) => {
   return (
     <div>
@@ -14,9 +16,10 @@ const InputCoin = (props) => {
             {props.coinType}
           </button>
         }
+        modal
         position="right center"
       >
-        <div>Popup content here !!</div>
+        {(close) => <CoinForm />}
       </Popup>
     </div>
   );
