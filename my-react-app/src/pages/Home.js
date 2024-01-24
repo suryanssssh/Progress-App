@@ -20,6 +20,7 @@ const Home = () => {
 
   return (
     <>
+      {/* <graphCompare /> */}
       <nav>
         <p>Welcome Home</p>
 
