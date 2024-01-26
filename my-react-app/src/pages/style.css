@@ -4,13 +4,13 @@
 } */
 .button {
   /* #f8b044 #a4f844 #44f844  #44f8cb #4474f8 #a144f8 #f844e9 #f84444*/
-    background-color: #f84444; 
-    border: none;
-    color: white;
-    padding: 40px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+  border: none;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #f84444; 
     font-size: 100px;
     margin: 4px 2px;
     border:1px solid black;

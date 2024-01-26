@@ -1,7 +1,7 @@
 import React from "react";
 import Stack from "react-bootstrap/Stack";
-import InputCoin from "./components/InputCoin";
 import NavigationBar from "./components/NavigationBar";
+import InputCoin from "./components/InputCoin";
 import Footer from "./components/Footer";
 const Add = () => {
   return (
