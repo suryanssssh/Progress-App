@@ -3,7 +3,13 @@ import Stack from "react-bootstrap/Stack";
 import NavigationBar from "./components/NavigationBar";
 import InputCoin from "./components/InputCoin";
 import Footer from "./components/Footer";
+import { useContext } from "react";
+import { coinContext } from "../context/coinContext";
 const Add = () => {
+  const { coinValues, setCoinvalues } = useContext(coinContext);
+  const coinAddHandler = () => {
+    let coinType = {};
+  };
   return (
     <>
       <NavigationBar />
